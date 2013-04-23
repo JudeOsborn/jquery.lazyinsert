@@ -19,7 +19,7 @@ Options
 
  * container: A JQuery element to use as a scrolling container (or window if not specficied).
  * threshold: An offset in pixels, to allow Lazy Insert to do its magic before an item comes on screen.
- * throttle: Optionally throttles the scroll event for performance. Requires the [http://benalman.com/code/projects/jquery-throttle-debounce/docs/files/jquery-ba-throttle-debounce-js.html](jquery.ba-throttle-debounce) plug-in. This is *strongly* recommended.
+ * throttle: Optionally throttles the scroll event for performance. Requires the (http://benalman.com/code/projects/jquery-throttle-debounce/docs/files/jquery-ba-throttle-debounce-js.html)[jquery.ba-throttle-debounce] plug-in. This is *strongly* recommended.
 
 That's it! Now img tags will be inserted into ".image-container" when the element comes into view, and removed when it scrolls off page.
 
