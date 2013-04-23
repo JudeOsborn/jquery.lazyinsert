@@ -26,4 +26,4 @@ That's it! Now img tags will be inserted into ".image-container" when the elemen
 
 Copyright (c) 2013 Jude Osborn
 
-Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+[Licensed under the MIT license](http://www.opensource.org/licenses/mit-license.php)
