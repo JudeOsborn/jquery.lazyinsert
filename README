@@ -6,7 +6,7 @@ A jQuery plugin to insert image elements when they appear on screen.
 Removes them when they are not visible. Useful for pages with a LOT of images.
 
 Usage
-------
+-----
 
 Apply to image containers, such as a div, specifying the image to insert in the data-image attribute:
 
@@ -15,11 +15,14 @@ Apply to image containers, such as a div, specifying the image to insert in the 
 JavaScript declaration
 ----------------------
 
-	$('.image-container').lazyinsert({
-		container: <jquery scrolling container (or window if not specficied)>,
-		threshold: <An offset in pixels, to allow Lazy Insert to do its magic before an item comes on screen>,
-		throttle: <Optionally throttles the scroll event for performance. Requires the jquery.ba-throttle-debounce" plug-in>
-	});
+	$('.image-container').lazyinsert();
+
+Options
+-------
+
+ * container: JQuery scrolling container (or window if not specficied).
+ * threshold: An offset in pixels, to allow Lazy Insert to do its magic before an item comes on screen.
+ * throttle: Optionally throttles the scroll event for performance. Requires the jquery.ba-throttle-debounce" plug-in.
 
 <img> tags will be inserted into ".image-container" when the element comes into view, and removed when it scrolls off page.
 
