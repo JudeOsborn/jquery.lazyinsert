@@ -1,0 +1,6 @@
+JQuery Lazy Insert
+==================
+
+Lazy Insert - jQuery plugin to insert image elements when they appear on screen.
+
+Removes them when they are not visible. Useful for pages with a LOT of images.
